@@ -96,7 +96,7 @@ def uploadToDefectDojo(is_new_import, dojo_token, url, product_name, engagement_
         'engagement_name': (None, engagement_name),
         'product_type_name': 'Dev',
         'active': (None, 'true'),
-        'environment': 'Seguranca',
+        'environment': 'Security',
         'do_not_reactivate': 'true',
         'skip_duplicates': 'true',
         'verified': (None, 'false'),
