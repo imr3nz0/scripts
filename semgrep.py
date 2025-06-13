@@ -5,7 +5,7 @@ import urllib3
 urllib3.disable_warnings()
 
 # Configurações do DefectDojo
-url = 'https://demo.defectdojo.org/'
+url = 'https://defectdojo.dito.com.br:8443/'
 
 def get_engagement_id_from_name(dojo_token, url, product_name, engagement_name):
     # Busca o ID do produto pelo nome
@@ -65,7 +65,7 @@ def create_or_upload_test_based_on_count(dojo_token, url, product_name, engageme
             "target_start": "2024-03-27T01:02:02.253Z",
             "target_end": "2027-03-27T01:02:02.253Z",
             "percent_complete": 2147483647,
-            "test_type": 120
+            "test_type": 191
         }
         create_test_response = requests.post(
             test_endpoint,
