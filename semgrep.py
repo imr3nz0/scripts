@@ -5,7 +5,7 @@ import urllib3
 urllib3.disable_warnings()
 
 # Configurações do DefectDojo
-url = 'https://defectdojo.dito.com.br:8443/'
+url = 'https://35.231.34.114:8443/'
 
 def get_engagement_id_from_name(dojo_token, url, product_name, engagement_name):
     # Busca o ID do produto pelo nome
